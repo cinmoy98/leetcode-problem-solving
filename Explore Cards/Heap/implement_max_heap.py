@@ -87,21 +87,25 @@ class MaxHeap:
 
 if __name__ == "__main__":
     	# Test cases
-        maxHeap = MaxHeap(5)
-        maxHeap.add(1)
+        maxHeap = MaxHeap(9)
+        maxHeap.add(3)
         maxHeap.add(2)
         maxHeap.add(3)
+        maxHeap.add(1)
+        maxHeap.add(2)
+        maxHeap.add(4)
+        maxHeap.add(5)
+        maxHeap.add(5)
+        maxHeap.add(6)
         # [3,1,2]
         print(maxHeap)
         # 3
-        print(maxHeap.peek())
+        
         # 3
         print(maxHeap.pop())
+        print(maxHeap.pop())
+        print(maxHeap.pop())
         # 2
-        print(maxHeap.pop())
         # 1
-        print(maxHeap.pop())
-        maxHeap.add(4)
-        maxHeap.add(5)
-        # [5,4]
         print(maxHeap)
+        print(maxHeap.peek())

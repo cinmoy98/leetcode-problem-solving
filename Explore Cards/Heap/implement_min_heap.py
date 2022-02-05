@@ -92,7 +92,7 @@ if __name__ == "__main__":
         minHeap.add(3)
         minHeap.add(4)
         minHeap.add(5)
-        minHeap.add(6)
+        minHeap.add(5)
         minHeap.add(7)
         # [1,3,2]
         print(minHeap)
